@@ -609,7 +609,7 @@ metadata:
     app.kubernetes.io/version: 1.7.0
   name: nginx
 spec:
-  controller: k8s.io/ingress-nginx
+  controller: k8s.io/ingress-controller
 ---
 apiVersion: admissionregistration.k8s.io/v1
 kind: ValidatingWebhookConfiguration
